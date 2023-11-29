@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 1px dotted red;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.gridContainer {
+    /* border: 2px solid black; */
+    /* width: 600px;
+    height: 600px; */
+    margin: auto; 
+    /* float: right; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+
+}
+
+.cell {
+    border: 1px solid grey;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 calc(600px/16);
+    background-color: white;
+}
